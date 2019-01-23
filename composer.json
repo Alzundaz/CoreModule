@@ -1,0 +1,22 @@
+{
+    "name": "alzundaz/coremodule",
+    "description": "Heart of NitroPHP",
+    "type": "nitrophp-module",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "GothShoot",
+            "email": "romuald.mocq@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "mnsami/composer-custom-directory-installer": "^1.*"
+    },
+    "extra":{
+        "installer-paths":{
+          "./Module/CoreModule": ["alzundaz/coremodule"]
+        }
+    }
+}
