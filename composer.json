@@ -14,9 +14,7 @@
         "php": "^7.1",
         "composer/installers": "~1.0"
     },
-    "extra":{
-        "installer-paths":{
-          "./Module/CoreModule": ["alzundaz/coremodule"]
-        }
+    "extra": {
+        "installer-name": "CoreModule"
     }
 }
